@@ -50,11 +50,7 @@ The project is intentionally designed as a **native Android application**, using
 
 ### Motion Blur Demo
 
-<video src="./motionblur.mp4" controls width="400">
-  Your browser does not support the video tag.
-</video>
-
-[▶️ Watch the Motion Blur Demo](./motionblur.mp4)
+<img src="motionblur.gif" width="400">
 
 ## Main Features
 
