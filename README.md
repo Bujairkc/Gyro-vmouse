@@ -28,6 +28,33 @@ The project is intentionally designed as a **native Android application**, using
 
 ---
 
+---
+
+## Screenshots
+
+### Screenshot 1
+
+![Screenshot 1](screenshot1.jpg)
+
+### Screenshot 2
+
+![Screenshot 2](screenshot2.jpg)
+
+### Screenshot 3
+
+![Screenshot 3](screenshot3.jpg)
+
+### Screenshot 4
+
+![Screenshot 4](screenshot4.jpg)
+
+### Motion Blur Demo
+
+<video controls width="700">
+  <source src="motionblur.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Main Features
 
 ### 1. Motion-Controlled Mouse
