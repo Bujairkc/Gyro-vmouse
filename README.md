@@ -50,7 +50,7 @@ The project is intentionally designed as a **native Android application**, using
 
 ### Motion Blur Demo
 
-<img src="motionblur.gif" width="400">
+<img src="motionblur.gif" width="300">
 
 ## Main Features
 
