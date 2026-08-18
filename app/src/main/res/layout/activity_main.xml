@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Custom Mouse"
+            android:textColor="@color/ios_text"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="start"/>
+
+        <!-- Service Control -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/glass_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <Button android:id="@+id/startBtn" android:text="Start Service"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/premium_button"
+                android:textColor="@color/ios_accent"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <Button android:id="@+id/stopBtn" android:text="Stop Service"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/premium_button"
+                android:textColor="@color/ios_red"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <Button android:id="@+id/calibrateBtn" android:text="Calibrate Click"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/premium_button"
+                android:textColor="@color/ios_text"
+                android:textSize="16sp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <TextView android:text="PREFERENCES" android:textColor="@color/ios_gray" android:textSize="13sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/glass_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <TextView android:id="@+id/sensText" android:text="Sensitivity: 100" android:textColor="@color/ios_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <SeekBar android:id="@+id/sensitivity" android:max="200" android:progress="100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:progressTint="@color/ios_accent" android:thumbTint="@color/ios_accent"/>
+
+            <TextView android:id="@+id/speedText" android:text="Speed: 100" android:textColor="@color/ios_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <SeekBar android:id="@+id/speed" android:max="200" android:progress="100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:progressTint="@color/ios_accent" android:thumbTint="@color/ios_accent"/>
+
+            <TextView android:id="@+id/smoothText" android:text="Smoothing: 20" android:textColor="@color/ios_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <SeekBar android:id="@+id/smoothing" android:max="50" android:progress="20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:progressTint="@color/ios_accent" android:thumbTint="@color/ios_accent"/>
+
+            <TextView android:id="@+id/sizeText" android:text="Cursor Scale: 100%" android:textColor="@color/ios_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <SeekBar android:id="@+id/mouseSize" android:max="200" android:progress="100" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:progressTint="@color/ios_accent" android:thumbTint="@color/ios_accent"/>
+        </LinearLayout>
+
+        <TextView android:text="VISUALS" android:textColor="@color/ios_gray" android:textSize="13sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/glass_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <CheckBox android:id="@+id/blurCheck" android:text="Motion Blur (Trail)" android:textColor="@color/ios_text" android:buttonTint="@color/ios_accent" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <Button android:id="@+id/pickCursorBtn" android:text="Change Cursor Image" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="20dp" android:background="@drawable/premium_button" android:textColor="@color/ios_text" android:textAllCaps="false"/>
+            <Button android:id="@+id/resetCursorBtn" android:text="Reset to Default" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="12dp" android:background="@drawable/premium_button" android:textColor="@color/ios_red" android:textAllCaps="false"/>
+
+            <View android:layout_width="match_parent" android:layout_height="0.5dp" android:background="@color/ios_border" android:layout_marginTop="24dp" android:layout_marginBottom="24dp"/>
+
+            <Button android:id="@+id/customColorBtn" android:text="Custom Box Color" android:layout_width="match_parent" android:layout_height="64dp" android:background="@drawable/premium_button" android:textColor="@color/ios_accent" android:textStyle="bold" android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <TextView android:text="BULGE KEYBOARD" android:textColor="@color/ios_gray" android:textSize="13sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/glass_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button android:id="@+id/enableKeyboardBtn" android:text="Enable Bulge Keyboard"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:background="@drawable/premium_button"
+                android:textColor="@color/ios_accent"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <Button android:id="@+id/switchKeyboardBtn" android:text="Switch Keyboard"
+                android:layout_width="match_parent" android:layout_height="64dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/premium_button"
+                android:textColor="@color/ios_text"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <CheckBox android:id="@+id/revolverModeCheck" android:text="Radial Revolver Keys"
+                android:textColor="@color/ios_text" android:buttonTint="@color/ios_accent"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"/>
+
+            <CheckBox android:id="@+id/systemEmojiCheck" android:text="Use System Emojis"
+                android:textColor="@color/ios_text" android:buttonTint="@color/ios_accent"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="60dp"/>
+
+    </LinearLayout>
+</ScrollView>

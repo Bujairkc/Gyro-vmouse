@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="ios_bg">#F2F2F7</color>
+    <color name="ios_card">#FFFFFF</color>
+    <color name="ios_text">#000000</color>
+    <color name="ios_accent">#007AFF</color>
+    <color name="ios_red">#FF3B30</color>
+    <color name="ios_gray">#8E8E93</color>
+    <color name="ios_border">#C6C6C8</color>
+    <color name="ios_button">#E5E5EA</color>
+</resources>
