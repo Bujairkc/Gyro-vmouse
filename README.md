@@ -34,26 +34,27 @@ The project is intentionally designed as a **native Android application**, using
 
 ### Screenshot 1
 
-![Screenshot 1](screenshot1.jpg)
+<img src="screenshot1.jpg" alt="Screenshot 1" width="300">
 
 ### Screenshot 2
 
-![Screenshot 2](screenshot2.jpg)
+<img src="screenshot2.jpg" alt="Screenshot 2" width="300">
 
 ### Screenshot 3
 
-![Screenshot 3](screenshot3.jpg)
+<img src="screenshot3.jpg" alt="Screenshot 3" width="300">
 
 ### Screenshot 4
 
-![Screenshot 4](screenshot4.jpg)
+<img src="screenshot4.jpg" alt="Screenshot 4" width="300">
 
 ### Motion Blur Demo
 
-<video controls width="700">
-  <source src="motionblur.mp4" type="video/mp4">
+<video src="./motionblur.mp4" controls width="400">
   Your browser does not support the video tag.
 </video>
+
+[▶️ Watch the Motion Blur Demo](./motionblur.mp4)
 
 ## Main Features
 
