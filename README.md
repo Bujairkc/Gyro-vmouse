@@ -1190,9 +1190,7 @@ The next major step is therefore not rebuilding the core architecture, but impro
 
 # License
 
-No license is specified in the supplied project files.
-
-Before publishing the repository publicly, choose and add an appropriate open-source license (or explicitly state that the project is proprietary).
+Apache 2.0
 
 ---
 
@@ -1212,3 +1210,5 @@ Before publishing the repository publicly, choose and add an appropriate open-so
 ## Final Note
 
 Bulge Mouse & Keyboard is currently a working development project with its core interaction systems implemented. The project is now at the stage where **UI/UX refinement, device testing, compatibility work, and release preparation** are the primary areas of development.
+
+## Copyright 2026 Sea On Side
